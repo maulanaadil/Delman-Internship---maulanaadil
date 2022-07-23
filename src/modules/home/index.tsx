@@ -1,11 +1,9 @@
 import React from 'react';
 
+import { Container } from '@chakra-ui/react';
+
 export const HomeModule = () => {
-  return (
-    <div>
-      <p>This is home module</p>
-    </div>
-  );
+  return <Container>asdads</Container>;
 };
 
 export default HomeModule;

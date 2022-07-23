@@ -5,7 +5,7 @@ import { HomeModule } from '@/modules';
 const Home: NextPage = () => {
   return (
     <div>
-      <PageWrapper title='InternShip Program'>
+      <PageWrapper title='Main menu'>
         <HomeModule />
       </PageWrapper>
     </div>
