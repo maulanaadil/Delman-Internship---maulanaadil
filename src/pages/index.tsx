@@ -4,11 +4,9 @@ import { HomeModule } from '@/modules';
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <PageWrapper title='Main menu'>
-        <HomeModule />
-      </PageWrapper>
-    </div>
+    <PageWrapper title='Main menu'>
+      <HomeModule />
+    </PageWrapper>
   );
 };
 
