@@ -54,7 +54,7 @@ export const Navbar = ({ ...props }) => {
         <Divider orientation='vertical' h='100%' marginLeft='20px' />
         <Breadcrumb marginLeft='20px'>
           <BreadcrumbItem>
-            <BreadcrumbLink href='/'>InternShip Program</BreadcrumbLink>
+            <BreadcrumbLink href='/'>Internship Program</BreadcrumbLink>
           </BreadcrumbItem>
           {breadCrumbs.map((breadcrumb) => (
             <BreadCrumbItems
