@@ -36,6 +36,9 @@ export const TitleTransformerModule = () => {
 
   const randomizeColorHandler = () => {
     setStart(!start);
+    if (start) {
+      setTimer(0);
+    }
   };
 
   const randomColorAnjay = (index: number) => {
